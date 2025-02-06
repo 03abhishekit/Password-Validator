@@ -17,6 +17,7 @@ Real-time Feedback: Displays a success or error message based on password validi
 Responsive Interface: User-friendly and clean design.
 Tech Stack
 React: For building the user interface.
+
 Validator: A validation library to check password strength.
 Features and Functionality
 Password Strength Check:
@@ -26,6 +27,7 @@ At least 1 uppercase letter.
 At least 1 number.
 At least 1 symbol.
 Error and Success Messages: Displays a message informing users whether their password is accepted or the issues with the password.
+
 Installation
 To run this app locally, follow these steps:
 
@@ -35,19 +37,26 @@ git clone https://github.com/03abhishekit/Password-Validator.git
 
 Navigate to the project folder:
 
+
 cd Password-Validator
+
 Install dependencies:
 
 
 npm install
+
+
 Start the development server:
 
 npm start
+
 
 How It Works
 Enter a password in the input field.
 
 Click the "Submit" button to validate the password.
+
+
 If the password meets all strength requirements, a message "Password Accepted" will be displayed in green.
 If the password does not meet the requirements, an error message will be shown in red outlining what needs to be improved.
 Example
